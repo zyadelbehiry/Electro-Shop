@@ -1,0 +1,32 @@
+.category {
+  width: 60%;
+  caret-color: transparent;
+  margin-inline: auto;
+  padding: 0.2rem 0;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  .category-name {
+    width: 100%;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-inline: auto;
+    color: white;
+    font-size: 32px;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .category {
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .category {
+    width: 70%;
+  }
+}

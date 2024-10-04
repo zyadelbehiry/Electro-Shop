@@ -1,0 +1,110 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "product_name": "Iphone 14",
+      "product_category": "smart phones",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_image": "img-1.jpg"
+    },
+    {
+      "id": "1",
+      "product_name": "Samsung S14+",
+      "product_category": "smart phones",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_image": "phone-2.jpeg"
+    },
+    {
+      "id": "2",
+      "product_name": "POCO X3 Pro",
+      "product_category": "smart phones",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_image": "phone-3.jpeg"
+    },
+    {
+      "id": "3",
+      "product_name": "HP",
+      "product_category": "labtop",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_quantity": 50,
+      "product_image": "img-4.jpeg"
+    },
+    {
+      "id": "4",
+      "product_name": "Dell",
+      "product_category": "labtop",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_image": "img-5.jpeg"
+    },
+    {
+      "id": "5",
+      "product_name": "Apple Mac",
+      "product_category": "labtop",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae odit inventore in iusto odio placeat voluptatem sed eligendi? Itaque quis iure incidunt magnam molestiae eligendi non ut dolores quibusdam excepturi?",
+      "product_price": 100,
+      "product_image": "img-6.jpeg"
+    },
+    {
+      "id": "28c1",
+      "product_name": "New Product",
+      "product_category": "labtop",
+      "product_desc": "this is a new product",
+      "product_price": "100",
+      "product_image": "phone-2.jpeg"
+    },
+    {
+      "id": "095e",
+      "product_name": "New project 2",
+      "product_category": "smart phones",
+      "product_desc": "this is the second new project",
+      "product_price": 200,
+      "product_image": "img-2.jpeg"
+    },
+    {
+      "id": "3b48",
+      "product_name": "New project 3",
+      "product_category": "labtop",
+      "product_desc": "this is the 3 new project",
+      "product_price": 200,
+      "product_image": "img-2.jpeg"
+    },
+    {
+      "id": "e555",
+      "product_name": "New project 4",
+      "product_category": "smart phones",
+      "product_desc": "this is the 4 new project",
+      "product_price": 100,
+      "product_image": "img-2.jpeg"
+    },
+    {
+      "id": "356c",
+      "product_name": "New project 5",
+      "product_category": "smart phones",
+      "product_desc": "this is the 3 new project",
+      "product_price": 200,
+      "product_image": "img-2.jpeg"
+    },
+    {
+      "id": "cfc1",
+      "product_name": "New project 6",
+      "product_category": "labtop",
+      "product_desc": "this is the second new project",
+      "product_price": "100",
+      "product_image": "img-2.jpeg"
+    },
+    {
+      "id": "bf65",
+      "product_name": "Zyad Project",
+      "product_category": "smart phones",
+      "product_desc": "any any",
+      "product_price": "500",
+      "product_image": "img-2.jpeg"
+    }
+  ],
+  "users": []
+}

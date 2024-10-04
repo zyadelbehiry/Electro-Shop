@@ -1,0 +1,109 @@
+.dashboard-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% auto;
+  color: white;
+
+  .dash-side-bar {
+    height: 550px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(0, 3, 25, 0.8) 7% 80%,
+      transparent
+    );
+    h1 {
+      padding: 2rem 2rem;
+    }
+    .dash-menu {
+      list-style: none;
+      li {
+        padding: 1rem 2rem;
+        width: 100%;
+        .aside-link {
+          padding-right: 11rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          color: #ccc;
+          text-decoration: none;
+          &:hover {
+            color: white;
+          }
+        }
+        &:hover {
+            background-color: rgb(0, 4, 35);
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: 0.2px solid #cccccc1d;
+        }
+    }
+    .active {
+      background-color: rgb(0, 4, 35);
+      font-weight: bold;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border: 0.2px solid #cccccc1d;
+    }
+    }
+  }
+  main {
+    padding: 1rem 2rem;
+    .dashboard-cards {
+      display: flex;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+      .dashboard-card {
+        width: 25%;
+        height: 230px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        caret-color: transparent;
+        padding: 4rem 0;
+        gap: 2rem;
+        background-color: rgb(0, 4, 35);
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px rgba(0, 67, 69, 0.4) inset;
+        border: 0.2px solid #cccccc1d;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        &:hover {
+          box-shadow: 2px 2px 15px rgba(0, 67, 69, 0.4) inset;
+          cursor: pointer;
+          color: yellowgreen;
+        }
+        .card-icon {
+          font-size: 52px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard-container{
+    margin-top: 5rem;
+    text-align: center;
+    display: block;
+    .dash-side-bar{
+      display: none;
+    }
+    main{
+      h1{
+        margin-bottom: 2rem;
+      }
+      .dashboard-cards{
+        justify-content: center;
+        .dashboard-card{
+          width: 80%;
+
+        }
+      }
+    }
+  }
+}

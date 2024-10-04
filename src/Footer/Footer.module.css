@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0 0 0 / .2);
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2% 5%;
+  color: white;
+  margin-top: 8rem;
+  p{
+    color: gray;
+  }
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    a{
+      text-decoration: none;
+      color: gray;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  .icons-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      padding: 1rem;
+      box-shadow: 1px 1px 8px #ffffff5b inset;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 1px 1px 12px #ffffff5b inset;
+      }
+      &:nth-child(1):hover{
+        color: green;
+        box-shadow: 1px 1px 12px green inset;
+      }
+      &:nth-child(2):hover{
+        color: blue;
+        box-shadow: 1px 1px 12px blue inset;
+      }
+      &:nth-child(3):hover{
+        color: white;
+        box-shadow: 1px 1px 12px white inset;
+      }
+      &:nth-child(4):hover{
+        color: #E4405F;
+        box-shadow: 1px 1px 12px #E4405F inset;
+      }
+      &:nth-child(5):hover{
+        color: #0077B5;
+        box-shadow: 1px 1px 12px #0077B5 inset;
+      }
+    }
+  }
+}

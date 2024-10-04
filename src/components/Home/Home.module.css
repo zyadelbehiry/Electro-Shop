@@ -1,0 +1,36 @@
+.home {
+  margin: 9.5rem 0;
+  color: white;
+  text-align: center;
+  caret-color: transparent;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 180px;
+  position: relative;
+}
+.brand-info-container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+.brand-title {
+  max-width: 60%;
+  margin-inline: auto;
+  font-size: 70px;
+  span {
+    color: #cbacf9;
+  }
+}
+small {
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  .home {
+    margin: 6rem 0rem;
+    gap: 100px;
+  }
+  .brand-title {
+    max-width: 90%;
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter' ,sans-serif;
+}
+@font-face {
+  font-family: 'inter';
+  src: url('./Fonts/InterFont/static/Inter_18pt-Regular.ttf') format('truetype');
+}
+body {
+  background-color: #000319;
+  background-image: url("./Assets/690a21a77f22862ff6f01a03324c3dec.png"),url("./Assets/690a21a77f22862ff6f01a03324c3dec.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -500px -200px;
+  background-attachment:fixed;
+  scrollbar-width: 10px;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(20, 23, 34); 
+  border-radius: 5px; 
+  border: 1px solid #31333f;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-corner {
+  width: none;
+}
+

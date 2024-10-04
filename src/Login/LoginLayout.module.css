@@ -1,0 +1,75 @@
+.login-container {
+  width: 40%;
+  margin-inline: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 25px  rgb(127, 255, 212,.2);
+  gap: 0rem;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  &:hover {
+    box-shadow: 0px 8px 30px rgb(127, 255, 212,.2);
+  }
+}
+
+.login-option {
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  margin-inline: auto;
+  font-size: 18px;
+  text-decoration: underline;
+  &:hover {
+    color: cornflowerblue;
+  }
+}
+.login-type {
+  width: 100%;
+  margin-inline: auto;
+  text-align: left;
+  /* color: rgb(100, 149, 237); */
+  letter-spacing: 3px;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  position: relative;
+  caret-color: transparent;
+  &::after {
+    content: "";
+    width: 115px;
+    height: 5px;
+    background-color: rgb(100, 149, 237);
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .login-container{
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .login-container{
+    width: 80%;
+    margin-top: 5rem;
+  }
+}
+
